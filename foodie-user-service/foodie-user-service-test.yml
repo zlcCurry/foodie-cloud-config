@@ -1,12 +1,10 @@
 # 数据库连接串 & 密码
 mariadb:
-  url: 'jdbc:mysql://localhost:3306/foodie-cloud-user?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8&autoReconnect=true'
-  username: 'root'
-  password: '{cipher}d8619ad307f56a40481a8d1d9640cb11fe16cc42d803f03bdd6e1516358c29e6'
+  url: jdbc:mysql://localhost:3306/foodie-cloud-user?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8&autoReconnect=true
+  username: root
+  password: {cipher}d8619ad307f56a40481a8d1d9640cb11fe16cc42d803f03bdd6e1516358c29e6
 
 # 功能开关 - 开启/关闭注册功能
-userservice:
+user-service:
   registration:
     disabled: true
-
-# actuator功能端点
