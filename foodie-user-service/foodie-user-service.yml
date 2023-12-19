@@ -1,3 +1,4 @@
+# actuator功能端点
 management:
   endpoints:
     web:
